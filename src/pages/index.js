@@ -14,7 +14,6 @@ import { Content } from "../components/Content";
 
 const Index = () => (
   <Container
-    height="100vh"
     w="full"
     pt="40px"
     px="170px"
