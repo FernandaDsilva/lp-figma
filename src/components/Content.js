@@ -9,6 +9,8 @@ import {
   Heading,
   Grid,
   GridItem,
+  Divider,
+  Input,
 } from "@chakra-ui/react";
 
 export const Content = () => {
@@ -502,10 +504,283 @@ export const Content = () => {
         >
           GET STARTED
         </Button>
-        <Stack bgImage="./Drop.svg">
-          <Image src="./MeteorToUp.svg" />
-        </Stack>
       </Stack>
+
+      {/* MAPAMUNDI */}
+      <HStack
+        w="full"
+        mt="100px"
+        justifyContent="space-between"
+        align="center"
+        position="relative"
+      >
+        <VStack w="470px" h="439px" mt="70px">
+          <Heading
+            fontSize="44px"
+            fontFamily="Inter"
+            fontWeight="700"
+            color="#99EFD0"
+            line-height="50px"
+          >
+            Invest property for better{" "}
+            <Text as="span" color="#F2994A">
+              business{" "}
+            </Text>
+          </Heading>
+
+          <Text
+            color="#8476AA"
+            fontSize="18px"
+            fontFamily="Inter"
+            line-height="22px"
+            py="20px"
+          >
+            We are committed to processing the information in order to contact
+            you and talk about your project. We are committed to processing the
+            information.
+          </Text>
+
+          <HStack w="full" py="20px" justifyContent="left" align="center">
+            <Button
+              color="white"
+              borderColor="orange.400"
+              bg="orange.400"
+              borderRadius="3px"
+              variant="outline"
+              fontSize="12px"
+              w="157px"
+              h="46px"
+              boxShadow="-11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13)"
+              _hover={{ color: "orange.500", backgroundColor: "orange.200" }}
+            >
+              LEARN MORE
+            </Button>
+          </HStack>
+        </VStack>
+
+        <VStack>
+          <Image
+            src="Map.svg"
+            objectFit="cover"
+            w="600px"
+            position="absolute"
+            bottom="95px"
+            right="-139px"
+            zIndex="1"
+          />
+          {/* CARD MAP */}
+          <VStack
+            w="260px"
+            h="414px"
+            bg="white "
+            borderRadius="10px"
+            m="0"
+            p="0"
+            zIndex="2"
+          >
+            <Image
+              src="BlueNeural.svg"
+              w="full"
+              borderTopLeftRadius="10px"
+              borderTopEndRadius="10px"
+            />
+            <VStack justify="left" align="left">
+              <Heading fontSize="18px" fontFamily="Inter" fontWeight="semibold">
+                Omah mukti residence
+              </Heading>
+              <Text
+                fontSize="10px"
+                fontFamily="Inter"
+                fontWeight="400"
+                letterSpacing="0.5px"
+                line-height="13px"
+                color="#637381"
+                text-align="left"
+              >
+                Merpati sidomuncul 26 street, UK
+              </Text>
+
+              <Heading
+                fontSize="24px"
+                fontFamily="Inter"
+                fontWeight="400"
+                line-height="29px"
+                color="#13c296"
+                pt="15px"
+              >
+                $176,000
+              </Heading>
+              <Text
+                fontSize="10px"
+                fontFamily="Inter"
+                fontWeight="600"
+                line-height="13px"
+                color="#98a4af"
+                textTransform="uppercase"
+              >
+                Funding Request
+              </Text>
+
+              <Divider color="#D6DBDF" pt="15px" />
+
+              <HStack pt="15px" justify="space-between">
+                <VStack>
+                  <Heading
+                    fontSize="14px"
+                    fontFamily="Inter"
+                    fontWeight="500"
+                    line-height="17px"
+                  >
+                    13%
+                  </Heading>
+                  <Text
+                    fontSize="10px"
+                    fontFamily="Inter"
+                    fontWeight="400"
+                    letterSpacing="0.5px"
+                    line-height="13px"
+                    color="#637381"
+                    text-align="left"
+                  >
+                    Apr
+                  </Text>
+                </VStack>
+                <VStack>
+                  <Heading
+                    fontSize="14px"
+                    fontFamily="Inter"
+                    fontWeight="500"
+                    line-height="17px"
+                  >
+                    68%
+                  </Heading>
+                  <Text
+                    fontSize="10px"
+                    fontFamily="Inter"
+                    fontWeight="400"
+                    letterSpacing="0.5px"
+                    line-height="13px"
+                    color="#637381"
+                    text-align="left"
+                  >
+                    Ltv
+                  </Text>
+                </VStack>
+
+                <VStack>
+                  <Heading
+                    fontSize="14px"
+                    fontFamily="Inter"
+                    fontWeight="500"
+                    line-height="17px"
+                  >
+                    12 mth
+                  </Heading>
+                  <Text
+                    fontSize="10px"
+                    fontFamily="Inter"
+                    fontWeight="400"
+                    letterSpacing="0.5px"
+                    line-height="13px"
+                    color="#637381"
+                    text-align="left"
+                  >
+                    Loan
+                  </Text>
+                </VStack>
+              </HStack>
+            </VStack>
+          </VStack>
+
+          <Image
+            src="./Arrow.svg"
+            position="absolute"
+            bottom="250px"
+            right="216px"
+            zIndex="3"
+          />
+        </VStack>
+      </HStack>
+
+      {/* MEETING */}
+
+      <HStack spacing="84px" mt="50px">
+        <Image w="494px" h="448px" src="./Metting.svg" />
+        <VStack w="512px" h="290px" justify="left" align="left">
+          <Heading
+            fontSize="26px"
+            fontFamily="Inter"
+            fontWeight="semibold"
+            color="#99EFD0"
+            line-height="50px"
+            text-align="center"
+          >
+            Help Finding Information Online
+          </Heading>
+          <Text
+            w="414px"
+            fontSize="15px"
+            fontFamily="Inter"
+            fontWeight="900"
+            lineHeight="20px"
+            color="#8476AA
+            "
+          >
+            Fully customizable and neatly organized components will help you
+            work faster without limiting creative freedom.
+          </Text>
+
+          <HStack spacing="64px">
+            <VStack w="224px" justify="left" align="left">
+              <Image w="24px" h="24px" src="./Rabbit.svg" />
+              <Heading
+                fontSize="18px"
+                fontFamily="Inter"
+                fontWeight="semibold"
+                color="#99EFD0"
+                line-height="50px"
+                text-align="center"
+              >
+                Feature One
+              </Heading>
+              <Text
+                color="#8476AA"
+                fontSize="14px"
+                fontFamily="Inter"
+                line-height="20px"
+              >
+                Fully customizable and neatly organized components will help you
+                work faster
+              </Text>
+            </VStack>
+
+            <VStack w="224px" justify="left" align="left">
+              <Image w="24px" h="24px" src="./wifi.svg" />
+              <Heading
+                fontSize="18px"
+                fontFamily="Inter"
+                fontWeight="semibold"
+                color="#99EFD0"
+                line-height="50px"
+                text-align="center"
+              >
+                Feature Two
+              </Heading>
+              <Text
+                color="#8476AA"
+                fontSize="14px"
+                fontFamily="Inter"
+                line-height="20px"
+              >
+                Fully customizable and neatly organized components will help you
+                work faster
+              </Text>
+            </VStack>
+          </HStack>
+        </VStack>
+      </HStack>
+
+      {/* EMAIL CARD  */}
     </Box>
   );
 };
