@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Lp-Figma" title="Lp-Figna" src="project.svg" />
+    <img alt="Lp-Figma" title="Lp-Figna" src="./project.svg" />
 </h1>
 
 <br>
@@ -15,7 +15,7 @@ This project was developed using the following technologies:
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [Chakra-Ui] (https://chakra-ui.com/)
+- [Chakra-Ui](https://chakra-ui.com/)
 
 ## 🚀 Getting started
 
