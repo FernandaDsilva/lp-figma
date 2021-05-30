@@ -11,20 +11,29 @@ export const Header = () => {
         color="white"
       >
         <HStack
-          flexDirection={["column", "row"]}
+          flexDirection={["column", "row", "row", "row"]}
           align="center"
+          py={["5px", "0"]}
           fontSize="12px"
           spacing={8}
         >
-          <Image src="./Logo.svg" alt="Logo" w="36px" h="36px" />
-          <Link>ABOUT</Link>
-          <Link>GALLRY</Link>
-          <Link>PRICING</Link>
-          <Link>FAQ</Link>
-          <Link>BENEFITS</Link>
+          <Image
+            src="./Logo.svg"
+            alt="Logo"
+            w="36px"
+            h="36px"
+            position={["absolute", "initial"]}
+            top={["10px", "0"]}
+            left={["10px", "0"]}
+          />
+          <Link py={["5px", "0"]}>ABOUT</Link>
+          <Link py={["5px", "0"]}>GALLRY</Link>
+          <Link py={["5px", "0"]}>PRICING</Link>
+          <Link py={["5px", "0"]}>FAQ</Link>
+          <Link py={["5px", "0"]}>BENEFITS</Link>
         </HStack>
 
-        <HStack flexDirection={["column", "row"]} align="center">
+        <HStack flexDirection="row" align="center">
           <Button
             color="orange.400"
             borderColor="orange.400"

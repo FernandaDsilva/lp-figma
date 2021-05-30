@@ -20,10 +20,10 @@ export const Content = () => {
   return (
     <Box w="full" h="full">
       {/* HOME */}
-      <HStack w="full">
-        <VStack w="540px" h="439px" mt="70px">
+      <HStack w="full" flexDirection={["column", "row"]}>
+        <VStack w={["300px", "540px"]} h="439px" mt="70px">
           <Heading
-            fontSize="44px"
+            fontSize={["32px", "44px"]}
             fontFamily="Inter"
             fontWeight="700"
             color="#99EFD0"
@@ -74,24 +74,37 @@ export const Content = () => {
           </HStack>
         </VStack>
 
-        <VStack>
-          <Image src="MenRun.svg" w="600px" h="420px" />
+        <VStack w={["300px", "600px"]}>
+          <Image src="MenRun.svg" w="600px" />
         </VStack>
       </HStack>
       {/* LIST BRANDS */}
-      <HStack w="full" h="100%" spacing={20}>
-        <Image opacity="0.2" src="./ProfitWel.svg" />
-        <Image opacity="0.2" src="./Appcues.svg" />
-        <Image opacity="0.2" src="./ShipBob.svg" />
-        <Image opacity="0.2" src="./Bench.svg" />
-        <Image opacity="0.2" src="./Subby.svg" />
-        <Image opacity="0.2" src="./Demio.svg" />
+      <HStack
+        w="full"
+        h="100%"
+        flexDirection={["column", "row"]}
+        justify="center"
+        align="center"
+        spacing={["0", "20"]}
+      >
+        <Image opacity="0.2" py="5px" src="./ProfitWel.svg" />
+        <Image opacity="0.2" py="5px" src="./Appcues.svg" />
+        <Image opacity="0.2" py="5px" src="./ShipBob.svg" />
+        <Image opacity="0.2" py="5px" src="./Bench.svg" />
+        <Image opacity="0.2" py="5px" src="./Subby.svg" />
+        <Image opacity="0.2" py="5px" src="./Demio.svg" />
       </HStack>
 
       {/* GRID YOUR CHOISE */}
-      <Stack w="full" justifyContent="center" align="center" mt="100px">
+      <Stack
+        w="full"
+        justifyContent="center"
+        align="center"
+        mt={["20px", "100px"]}
+        border="1"
+      >
         <Heading
-          fontSize="42px"
+          fontSize={["32px", "42px"]}
           fontFamily="Inter"
           fontWeight="700"
           color="#99EFD0"
@@ -102,17 +115,24 @@ export const Content = () => {
         </Heading>
         <Text
           color="#8476AA"
-          fontSize="18px"
+          fontSize={["sm", "md"]}
           fontFamily="Inter"
           line-height="22px"
           py="20px"
+          textAlign="center"
         >
           There are many reasons to get down and start to get depressed about
           your situation.
         </Text>
+      </Stack>
+      {/* GRID SERVICES */}
+      <Stack>
         <Grid
+          w={["350px", "full"]}
+          px={["100px", "0"]}
+          columns={[1, null, 3]}
           templateRows="repeat(2, 1fr)"
-          templateColumns="repeat(3, 1fr)"
+          templateColumns={["repeat(1, 1fr)", null, "repeat(3, 1fr)"]}
           gap={20}
           rowGap={8}
         >
@@ -300,10 +320,16 @@ export const Content = () => {
       </Stack>
 
       {/* CARD */}
-      <HStack w="full" mt="100px" justifyContent="space-between" align="center">
-        <VStack w="470px" h="439px" mt="70px">
+      <HStack
+        w="full"
+        mt={["20px", "100px"]}
+        justifyContent={["initial", "space-between"]}
+        align="center"
+        flexDirection={["column", "row"]}
+      >
+        <VStack w={["full", "470px"]} h="439px" justify={["center", "initial"]}>
           <Heading
-            fontSize="44px"
+            fontSize={["32px", "44px"]}
             fontFamily="Inter"
             fontWeight="700"
             color="#99EFD0"
@@ -351,10 +377,10 @@ export const Content = () => {
 
       {/* SAVE MONEY */}
 
-      <Stack w="full" justify="center" align="center" mt="100px">
+      <Stack w="full" justify="center" align="center" mt={["20px", "100px"]}>
         <Heading
-          w="827px"
-          fontSize="42px"
+          w={["full", "827px"]}
+          fontSize={["32px", "42px"]}
           fontFamily="Inter"
           fontWeight="700"
           color="#99EFD0"
@@ -387,7 +413,7 @@ export const Content = () => {
           your situation.
         </Text>
 
-        <HStack spacing="100px">
+        <HStack spacing={["0", "100px"]} flexDirection={["column", "row"]}>
           <VStack>
             <Heading
               fontSize="42px"
@@ -474,9 +500,9 @@ export const Content = () => {
 
       {/* NEXT PROJETCT */}
 
-      <Stack w="full" justify="center" align="center" mt="100px">
+      <Stack w="full" justify="center" align="center" mt={["20px", "100px"]}>
         <Heading
-          w="827px"
+          w={["full", "827px"]}
           fontSize="42px"
           fontFamily="Inter"
           fontWeight="700"
@@ -512,12 +538,13 @@ export const Content = () => {
       {/* MAPAMUNDI */}
       <HStack
         w="full"
-        mt="100px"
+        mt={["20px", "100px"]}
         justifyContent="space-between"
         align="center"
         position="relative"
+        flexDirection={["column", "row"]}
       >
-        <VStack w="470px" h="439px" mt="70px">
+        <VStack w={["full", "470px"]} h="439px" mt="70px">
           <Heading
             fontSize="44px"
             fontFamily="Inter"
@@ -532,7 +559,7 @@ export const Content = () => {
           </Heading>
 
           <Text
-            w="470px"
+            w={["full", "470px"]}
             color="#8476AA"
             fontSize="15px"
             fontFamily="Inter"
@@ -568,9 +595,10 @@ export const Content = () => {
             objectFit="cover"
             w="600px"
             position="absolute"
-            bottom="95px"
-            right="-139px"
+            bottom={["70px", "95px"]}
+            right={["0", "-139px"]}
             zIndex="1"
+            overflow="hidden"
           />
           {/* CARD MAP */}
           <VStack
@@ -627,7 +655,7 @@ export const Content = () => {
 
               <Divider color="#D6DBDF" pt="15px" />
 
-              <HStack pt="15px" justify="space-between">
+              <HStack pt="10x" justify="space-between">
                 <VStack>
                   <Heading
                     fontSize="14px"
@@ -700,7 +728,7 @@ export const Content = () => {
             src="./Arrow.svg"
             position="absolute"
             bottom="250px"
-            right="216px"
+            right={["302px", "216px"]}
             zIndex="3"
           />
         </VStack>
@@ -708,9 +736,13 @@ export const Content = () => {
 
       {/* MEETING */}
 
-      <HStack spacing="84px" mt="50px">
+      <HStack
+        spacing={["0", "84px"]}
+        mt="50px"
+        flexDirection={["column", "row"]}
+      >
         <Image w="494px" h="448px" src="./Metting.svg" />
-        <VStack w="512px" h="290px" justify="left" align="left">
+        <VStack w={["full", "512px"]} h="290px" justify="left" align="left">
           <Heading
             fontSize="26px"
             fontFamily="Inter"
@@ -722,7 +754,7 @@ export const Content = () => {
             Help Finding Information Online
           </Heading>
           <Text
-            w="414px"
+            w={["full", "414px"]}
             fontSize="15px"
             fontFamily="Inter"
             fontWeight="900"
@@ -734,7 +766,7 @@ export const Content = () => {
             work faster without limiting creative freedom.
           </Text>
 
-          <HStack spacing="64px">
+          <HStack spacing={["0", "64px"]} flexDirection={["column", "row"]}>
             <VStack w="224px" justify="left" align="left">
               <Image w="24px" h="24px" src="./Rabbit.svg" />
               <Heading
@@ -828,8 +860,8 @@ export const Content = () => {
           opacity="0.3"
           borderEndRadius="0"
           position="absolute"
-          bottom="262px"
-          right="594px"
+          bottom={["120px", "262px"]}
+          right={["160px", "594px"]}
         />
         <Button
           w="128px"
@@ -840,8 +872,8 @@ export const Content = () => {
           textTransform="uppercase"
           borderStartRadius="0"
           position="absolute"
-          bottom="262px"
-          right="466px"
+          bottom={["120px", "262px"]}
+          right={["32px", "466px"]}
         >
           send
         </Button>
@@ -861,7 +893,7 @@ export const Content = () => {
 
       {/* FOOTER */}
 
-      <Stack w="full" mt="100px">
+      <Stack w="full" mt={["20px", "100px"]}>
         <HStack justify="space-between">
           <Text fontSize="26px" fontWeight="bold" color="#F2994a">
             ARShakir
