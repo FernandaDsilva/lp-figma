@@ -11,6 +11,8 @@ export default class Document extends NextDocument {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Roboto:wght@100&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
             rel="stylesheet"
           />
+
+          <link rel="shortcut icon" href="/Logo.svg" />
         </Head>
         <body>
           {/* Make Color mode to persists when you refresh the page. */}

@@ -1,29 +1,58 @@
-# Example app with [chakra-ui](https://github.com/chakra-ui/chakra-ui)
+<h1 align="center">
+    <img alt="Lp-Figma" title="Lp-Figna" src="project.svg" />
+</h1>
 
-This example features how to use [chakra-ui](https://github.com/chakra-ui/chakra-ui) as the component library within a Next.js app.
+<br>
 
-We are connecting the Next.js `_app.js` with `chakra-ui`'s Theme and ColorMode containers so the pages can have app-wide dark/light mode. We are also creating some components which shows the usage of `chakra-ui`'s style props.
+<p align="center">
+  <img alt="Lp-Figma" src="project.svg" width="50px">
+</p>
 
-## Deploy your own
+## 🧪 Technologies
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+This project was developed using the following technologies:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-chakra-ui&project-name=with-chakra-ui&repository-name=with-chakra-ui)
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Chakra-Ui] (https://chakra-ui.com/)
 
-## How to use
+## 🚀 Getting started
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Clone the project and access the folder
 
 ```bash
-npx create-next-app --example with-chakra-ui with-chakra-ui-app
-# or
-yarn create next-app --example with-chakra-ui with-chakra-ui-app
+$ git clone https://github.com/FernandaDsilva/lp-figma.git && cd lp-figma
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Follow the steps below
 
-## Notes
+```bash
+# Install the dependencies
+$ yarn
 
-Chakra has supported Gradients and RTL in `v1.1`. To utilize RTL, [add RTL direction and swap](https://chakra-ui.com/docs/features/rtl-support).
+# Start the project
+$ yarn dev
+```
 
-If you don't have multi-direction app, you should make `<Html lang="ar" dir="rtl">` inside `_document.js`.
+## 💻 Project
+
+[Lp-Figma](https://lp-figma.vercel.app/) The harder you work for something, the greater you’ll feel when you achieve it! 💙 🧡
+
+LpFigma is a study project based on the design of a data processing company. The idea is to apply the knowledge acquired in a real project to exercise the application of react, javascript and responsiveness. The project is develop by [arshakir](https://dribbble.com/arshakir)
+
+## 🔖 Layout
+
+You can view the project layout through the links below:
+
+- [Layout Web](<https://www.figma.com/file/CPOPmgqlaYIGAnI6cVezrT/Landing-Page-Concept-For-Data-Processing-Company-(Copy)>)
+
+Remembering that you need to have a [Figma](http://figma.com/) account to access it.
+
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
+
+---
+
+<p align="center">Made with 🖤  by Fernanda Dias</p>
