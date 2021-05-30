@@ -1,11 +1,11 @@
 <h1 align="center">
-    <img alt="Lp-Figma" title="Lp-Figna" src="./project.svg" />
+    <img alt="Lp-Figma" title="Lp-Figna" src="https://raw.githubusercontent.com/FernandaDsilva/lp-figma/c8c9cfe67582657f91ed97e93efe167662f48eaf/public/project.svg?token=AMPAYWE6EXQCMZF445YS7RDAWQRXI" />
 </h1>
 
 <br>
 
 <p align="center">
-  <img alt="Lp-Figma" src="project.svg" width="50px">
+  <img alt="Lp-Figma" src="https://raw.githubusercontent.com/FernandaDsilva/lp-figma/c8c9cfe67582657f91ed97e93efe167662f48eaf/public/Logo.svg?token=AMPAYWCL45L34KLY3IWQIZTAWQR2C" width="50px">
 </p>
 
 ## 🧪 Technologies
