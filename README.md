@@ -1,11 +1,11 @@
 <h1 align="center">
-    <img alt="Lp-Figma" title="Lp-Figna" src="project.svg" />
+    <img alt="Lp-Figma" title="Lp-Figna" src=".github/project.svg" />
 </h1>
 
 <br>
 
 <p align="center">
-  <img alt="Lp-Figma" src="project.svg" width="50px">
+  <img alt="Lp-Figma" src=".github/Logo.svg" width="50px">
 </p>
 
 ## 🧪 Technologies
