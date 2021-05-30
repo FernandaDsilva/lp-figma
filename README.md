@@ -1,11 +1,13 @@
 <h1 align="center">
     <img alt="Lp-Figma" title="Lp-Figna" src=".github/project.svg" />
+   
 </h1>
 
 <br>
 
 <p align="center">
   <img alt="Lp-Figma" src=".github/Logo.svg" width="50px">
+
 </p>
 
 ## 🧪 Technologies
@@ -15,7 +17,7 @@ This project was developed using the following technologies:
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [Chakra-Ui] (https://chakra-ui.com/)
+- [Chakra-Ui](https://chakra-ui.com/)
 
 ## 🚀 Getting started
 
