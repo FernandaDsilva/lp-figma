@@ -11,6 +11,7 @@ import { Header } from "../components/Header";
 import { Container } from "../components/Container";
 import { CTA } from "../components/CTA";
 import { Content } from "../components/Content";
+import MailCard from "../components/MailCard";
 
 const Index = () => (
   <Container

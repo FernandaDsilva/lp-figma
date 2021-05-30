@@ -13,6 +13,9 @@ import {
   Input,
 } from "@chakra-ui/react";
 
+import { AiOutlineGoogle, AiOutlineTwitter } from "react-icons/ai";
+import { FaFacebookF } from "react-icons/fa";
+
 export const Content = () => {
   return (
     <Box w="full" h="full">
@@ -529,10 +532,11 @@ export const Content = () => {
           </Heading>
 
           <Text
+            w="470px"
             color="#8476AA"
-            fontSize="18px"
+            fontSize="15px"
             fontFamily="Inter"
-            line-height="22px"
+            line-height="28px"
             py="20px"
           >
             We are committed to processing the information in order to contact
@@ -781,6 +785,138 @@ export const Content = () => {
       </HStack>
 
       {/* EMAIL CARD  */}
+
+      <Stack
+        bg="rgba(60, 62, 125, 45%)"
+        w="full"
+        h="324px"
+        borderRadius="5px"
+        justify="center"
+        align="center"
+        mt="150px"
+      >
+        <Heading
+          fontSize="44px"
+          fontFamily="Inter"
+          fontWeight="700"
+          color="#F2994A"
+          line-height="50px"
+          textAlign="center"
+        >
+          There are many reasons to get down
+        </Heading>
+
+        <Text
+          w="396px"
+          color="#8476AA"
+          fontSize="15px"
+          fontFamily="Inter"
+          line-height="22px"
+          py="20px"
+          textAlign="center"
+        >
+          There are many reasons to get down and start to get depressed about
+          your situation.
+        </Text>
+
+        <Input
+          w="288px"
+          placeholder="Your Email"
+          bg="#979797"
+          fontSize="12px"
+          color="#FFFFFF"
+          opacity="0.3"
+          borderEndRadius="0"
+          position="absolute"
+          bottom="262px"
+          right="594px"
+        />
+        <Button
+          w="128px"
+          bg="#F2994A"
+          fontSize="12px"
+          fontWeight="normal"
+          color="white"
+          textTransform="uppercase"
+          borderStartRadius="0"
+          position="absolute"
+          bottom="262px"
+          right="466px"
+        >
+          send
+        </Button>
+
+        <Text
+          w="396px"
+          color="#8476AA"
+          fontSize="15px"
+          fontFamily="Inter"
+          line-height="22px"
+          py="20px"
+          textAlign="center"
+        >
+          No spam. Only releases, updates and discounts
+        </Text>
+      </Stack>
+
+      {/* FOOTER */}
+
+      <Stack w="full" mt="100px">
+        <HStack justify="space-between">
+          <Text fontSize="26px" fontWeight="bold" color="#F2994a">
+            ARShakir
+          </Text>
+
+          <HStack h="full">
+            <Stack
+              bg="rgba(60, 62, 125, 45%)"
+              w="40px"
+              h="40px"
+              borderRadius="50%"
+              justifyContent="center"
+              alignItems="center"
+              cursor="pointer"
+            >
+              <AiOutlineGoogle color="white" />
+            </Stack>
+            <Stack
+              bg="rgba(60, 62, 125, 45%)"
+              w="40px"
+              h="40px"
+              borderRadius="50%"
+              justifyContent="center"
+              alignItems="center"
+              cursor="pointer"
+            >
+              <AiOutlineTwitter color="white" />
+            </Stack>
+            <Stack
+              bg="rgba(60, 62, 125, 45%)"
+              w="40px"
+              h="40px"
+              borderRadius="50%"
+              justifyContent="center"
+              alignItems="center"
+              cursor="pointer"
+            >
+              <FaFacebookF color="white" />
+            </Stack>
+          </HStack>
+        </HStack>
+      </Stack>
+      <Stack w="full" justify="center" align="center">
+        <HStack justify="space-between" align="center">
+          <Text color="#8D8D8D" fontFamily="Inter" fontSize="sm">
+            © Copyrights 2021
+          </Text>
+          <Text color="#8D8D8D" fontFamily="Inter" fontSize="sm">
+            Privacy policy
+          </Text>
+          <Text color="#8D8D8D" fontFamily="Inter" fontSize="sm">
+            Terms of service
+          </Text>
+        </HStack>
+      </Stack>
     </Box>
   );
 };
